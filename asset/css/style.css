@@ -2,11 +2,16 @@
   background-color: #f8bfcb;
   border: 1px solid black;
   text-align: center;
-  line-height: 160px;
+  position: relative;
 }
 
 .row > .col-6 > .row [class*="col-"] {
   background-color: #f07f80;
   height: 160px;
-  line-height: 120px;
+}
+.row span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
