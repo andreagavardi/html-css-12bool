@@ -1,0 +1,29 @@
+.container {
+  max-width: 480px;
+  background-image: url("https://media.istockphoto.com/vectors/abstract-comic-book-flash-explosion-radial-lines-background-vector-vector-id1143937145?s=612x612");
+  background-size: cover;
+  background-position: center;
+}
+.container [class*="col-"] {
+  border: 1px solid black;
+  height: 40px;
+  padding: 0;
+}
+.container [class*="col-off"] {
+  border: none;
+}
+.bg_blu {
+  background-color: blue;
+}
+.bg_white {
+  background-color: white;
+}
+.bg_lblu {
+  background-color: lightskyblue;
+}
+.bg_red {
+  background-color: red;
+}
+.bg_pink {
+  background-color: salmon;
+}
