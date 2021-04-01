@@ -1,0 +1,12 @@
+.container .row [class*="col-"] {
+  background-color: #f8bfcb;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 160px;
+}
+
+.row > .col-6 > .row [class*="col-"] {
+  background-color: #f07f80;
+  height: 160px;
+  line-height: 120px;
+}
